@@ -1,8 +1,8 @@
-const { Database } = require("wio.db");
+const { JsonDB } = require("wio.db");
 
 // cria/abre os bancos
-const ticketsDB = new Database("./db/tickets.json");
-const configDB  = new Database("./db/config.json");
-const ranksDB   = new Database("./db/ranks.json");
+const ticketsDB = new JsonDB({ databasePath: "./db/tickets.json" });
+const configDB  = new JsonDB({ databasePath: "./db/config.json" });
+const ranksDB   = new JsonDB({ databasePath: "./db/ranks.json" });
 
 module.exports = { ticketsDB, configDB, ranksDB };
