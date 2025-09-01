@@ -1,0 +1,22 @@
+{
+  "name": "ryo-bot",
+  "version": "1.0.0",
+  "description": "Bot de moderação e diversão para Discord",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "discord.js": "^14.15.3",
+    "colors": "^1.4.0",
+    "moment": "^2.30.1",
+    "moment-timezone": "^0.5.45",
+    "canvas": "^2.11.2",
+    "sqlite3": "^5.1.7",
+    "discord-html-transcripts": "^3.0.0",
+    "wio.db": "^3.0.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
